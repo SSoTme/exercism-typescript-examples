@@ -9,7 +9,7 @@
     DERIVED CODE: 
     This file is derived from the /planet-orbits.json 
     using /write-raw/create-raw-solutions.xslt
-    git@github.com:SSoTme/exercism-ts-space-age.git
+    git@github.com:SSoTme/exercism-typescript-examples.git
 *******************************************************/
 import { SpaceAgeBase } from "./space-age-base";
 
