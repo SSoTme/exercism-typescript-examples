@@ -17,6 +17,10 @@ be able to say that they're 31.69 Earth-years old.
 If you're wondering why Pluto didn't make the cut, go watch [this
 youtube video](http://www.youtube.com/watch?v=Z_2gbGXzFbs).
 
+## Added ssot.me tools
+ - `ssotme json-to-xml` to convert planet-orbits.json into xml
+ - `ssotme xml-xslt-transform` to write the derived space-age.ts
+
 ## Setup
 
 Go through the setup instructions for TypeScript to install the necessary
@@ -53,3 +57,4 @@ Partially inspired by Chapter 1 in Chris Pine's online Learn to Program tutorial
 
 It's possible to submit an incomplete solution so you can see how others have
 completed the exercise.
+
