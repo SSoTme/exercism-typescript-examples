@@ -1,12 +1,9 @@
-{
-	// This is the *** Single Source of Truth *** (SSoT) 
+{	// This is the *** Single Source of Truth *** (SSoT) 
 	// for the project.
 	
-	// `space-age.ts` is derived directly from this file
-	
 	// Changing the planet list, or relative orbit requires 
-	//    changing only this json file.
-
+	//    changing only this json file as `space-age.ts` is 
+	//    derived directly from this json input data.
 	"Mercury": 0.2408467,
 	"Venus": 0.61519726,
 	"Earth": 1,

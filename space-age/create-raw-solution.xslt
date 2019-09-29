@@ -17,7 +17,7 @@
 import { SpaceAgeBase } from "./space-age-base";
 
 class SpaceAge extends SpaceAgeBase {<xsl:for-each select="/*/*">
-    on<xsl:value-of select="name()" />() { return this.toPlanet(<xsl:value-of select="." />); }</xsl:for-each>
+    on<xsl:value-of select="name()" />() { return this.toPlanet(<xsl:value-of select="text()" />); }</xsl:for-each>
 }
 
 export { SpaceAge }
