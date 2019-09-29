@@ -1,7 +1,9 @@
 /*******************************************************
-    DERIVED CODE:
-    This file is derived from the /planet-orbits.json 
-    using /write-raw/create-raw-solutions.xslt
+    DERIVED CODE: 
+    This file is derived from the /planet-orbits.json using
+    > ssotme json-to-xml -i planet-orbits.json
+    > ssotme xml-xslt-transform -i planet-orbits.json.xml -i create-raw-solutions.xslt
+
     git@github.com:SSoTme/exercism-typescript-examples.git
 *******************************************************/
 import { SpaceAgeBase } from "./space-age-base";

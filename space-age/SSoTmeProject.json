@@ -31,8 +31,8 @@
       },
       "ProjectTranspilerId": "6c52e495-fe5f-4749-867e-752b955c2fd1",
       "Name": "XmlXsltTransform",
-      "RelativePath": "/write-raw",
-      "CommandLine": "xml-xslt-transform -i ..\\planet-orbits.json.xml -i create-raw-solution.xslt"
+      "RelativePath": "/",
+      "CommandLine": "xml-xslt-transform -i ./planet-orbits.json.xml -i create-raw-solution.xslt"
     },
     {
       "MatchedTranspiler": {
@@ -42,7 +42,7 @@
       },
       "Name": "Execute",
       "RelativePath": "/",
-      "CommandLine": "-execute submit.bat"
+      "CommandLine": "-execute submit.bat -w 120000"
     }
   ]
 }
