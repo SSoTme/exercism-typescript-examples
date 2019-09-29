@@ -18,17 +18,6 @@
         "Name": "JsonToXml",
         "Description": "Converts a json blob (or file) into Xml"
       },
-      "ProjectTranspilerId": "9aa01832-1a3f-4b59-a3b6-9041d4c4a681",
-      "Name": "JsonToXml",
-      "RelativePath": "/ssot",
-      "CommandLine": "json-to-xml -i ..\\planet-orbits.json -o ./planet-orbits.xml"
-    },
-    {
-      "MatchedTranspiler": {
-        "TranspilerId": "b57bcecf-ae78-40f0-b475-95447d7f61a1",
-        "Name": "JsonToXml",
-        "Description": "Converts a json blob (or file) into Xml"
-      },
       "ProjectTranspilerId": "b0a2202e-9334-4e0c-a43b-20d3247de622",
       "Name": "JsonToXml",
       "RelativePath": "",
