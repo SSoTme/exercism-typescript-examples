@@ -42,7 +42,8 @@
       },
       "Name": "Execute",
       "RelativePath": "/",
-      "CommandLine": "-execute submit.bat -w 120000"
+      "CommandLine": "-execute submit.bat -w 120000",
+      "IsDisabled": true
     }
   ]
 }

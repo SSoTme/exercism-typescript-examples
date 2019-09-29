@@ -20,7 +20,8 @@ class SpaceAge extends SpaceAgeBase {
     onOr() { return this.toPlanet(180.34343); }
     onAny() { return this.toPlanet(190.12345); }
     onOther() { return this.toPlanet(221.54321); }
-    onPlanet() { return this.toPlanet(424.24242); }
+    onPlanetLike() { return this.toPlanet(424.24242); }
+    onAlphaCentauri() { return this.toPlanet(123.555); }
 }
 
 export { SpaceAge }
