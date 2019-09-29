@@ -7,12 +7,12 @@ class SpaceAge {
 
     [key:string] : any;
     public earthYears = 0;
-    public seconds = 0;
+    public ageInSeconds = 0;
 
-    constructor(spaceAgeInSeconds:number) {
+    constructor(ageInSeconds:number) {
         var self = this;
-        this.seconds = spaceAgeInSeconds;
-        this.earthYears = spaceAgeInSeconds / 365.25 / 24 / 60 / 60;
+        this.ageInSeconds = ageInSeconds;
+        this.earthYears = ageInSeconds / 365.25 / 24 / 60 / 60;
         Object.keys(planetOrbits)
               .forEach((planetName:string) => {
                             self['on' + planetName] = () => this.toPlanet(planetOrbits[planetName]);
@@ -20,4 +20,4 @@ class SpaceAge {
     }
 }
 
-export { SpaceAge }
+export default { SpaceAge }
