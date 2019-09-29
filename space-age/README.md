@@ -18,7 +18,7 @@ If you're wondering why Pluto didn't make the cut, go watch [this
 youtube video](http://www.youtube.com/watch?v=Z_2gbGXzFbs).
 
 ## Added ssot.me tools
- - git@github.com:SSoTme/exercism-ts-space-age.git
+ - git@github.com:SSoTme/exercism-typescript-examples.git
  - `ssotme json-to-xml` to convert planet-orbits.json into xml
  - `ssotme xml-xslt-transform` to write the derived space-age.ts
 
