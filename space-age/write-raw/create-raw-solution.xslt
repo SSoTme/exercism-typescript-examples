@@ -5,13 +5,14 @@
             <FileSetFiles>
                 <FileSetFile>
                     <RelativePath>../space-age.ts</RelativePath>
-                    <xsl:element name="FileContents" xml:space="preserve">import { SpaceAgeBase } from "./space-age-base";
+                    <xsl:element name="FileContents" xml:space="preserve">/*******************************************************
+    DERIVED CODE: 
+    This file is derived from the planet-orbits.json 
+    using create-raw-solutions.xslt
+*******************************************************/
+import { SpaceAgeBase } from "./space-age-base";
 
-class SpaceAge extends SpaceAgeBase {
-    constructor(spaceAgeInSeconds:number) {
-        super(spaceAgeInSeconds)
-    }
-    <xsl:for-each select="/*/*">
+class SpaceAge extends SpaceAgeBase {<xsl:for-each select="/*/*">
     on<xsl:value-of select="name()" />() { return this.toPlanet(<xsl:value-of select="." />); }</xsl:for-each>
 }
 

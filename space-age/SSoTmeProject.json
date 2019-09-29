@@ -33,6 +33,16 @@
       "Name": "XmlXsltTransform",
       "RelativePath": "/write-raw",
       "CommandLine": "xml-xslt-transform -i ..\\planet-orbits.json.xml -i create-raw-solution.xslt"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "Name": "Execute",
+      "RelativePath": "/",
+      "CommandLine": "-execute submit.bat"
     }
   ]
 }
