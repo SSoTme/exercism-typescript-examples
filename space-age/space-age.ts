@@ -15,7 +15,6 @@ class SpaceAge extends SpaceAgeBase {
     onVenus() { return this.toPlanet(0.61519726); }
     onEarth() { return this.toPlanet(1); }
     onMars() { return this.toPlanet(1.8808158); }
-    onAlphaCentauri() { return this.toPlanet(2.0306); }
     onJupiter() { return this.toPlanet(11.862615); }
     onSaturn() { return this.toPlanet(29.447498); }
     onUranus() { return this.toPlanet(84.016846); }
