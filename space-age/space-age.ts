@@ -7,6 +7,7 @@
  *
  *   More details here at this github repo.
  *     git@github.com:SSoTme/exercism-typescript-examples.git
+ *     https://exercism.io/tracks/typescript/exercises/space-age/solutions/76044c6c569946de96d15da246df6ff9
  ********************************************************/
 import { SpaceAgeBase } from "./space-age-base";
 
