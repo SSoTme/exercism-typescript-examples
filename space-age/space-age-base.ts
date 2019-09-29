@@ -1,8 +1,8 @@
 class SpaceAgeBase {
     public seconds : number;
 
-    constructor(spaceAgeInSeconds : number) {
-        this.seconds = spaceAgeInSeconds;
+    constructor(spaceAgeInEarthSeconds : number) {
+        this.seconds = spaceAgeInEarthSeconds;
     }
 
     toPlanet(earthRelativeOrbit : number) {
