@@ -7,8 +7,8 @@
                     <RelativePath>../space-age.ts</RelativePath>
                     <xsl:element name="FileContents" xml:space="preserve">/*******************************************************
     DERIVED CODE: 
-    This file is derived from the planet-orbits.json 
-    using create-raw-solutions.xslt
+    This file is derived from the /planet-orbits.json 
+    using /write-raw/create-raw-solutions.xslt
 *******************************************************/
 import { SpaceAgeBase } from "./space-age-base";
 
