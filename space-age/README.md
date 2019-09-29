@@ -4,6 +4,7 @@ Given an age in seconds, calculate how old someone would be on:
 
    - Earth: orbital period 365.25 Earth days, or 31557600 seconds
 
+   - AlphaCentauriB: orbital period 0.0306 Earth years.
    - Mercury: orbital period 0.2408467 Earth years.
    - Venus: orbital period 0.61519726 Earth years.
    - Earth: orbital period 1 Earth years.
