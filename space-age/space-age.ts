@@ -12,7 +12,6 @@
 import { SpaceAgeBase } from "./space-age-base";
 
 class SpaceAge extends SpaceAgeBase {
-    onAlphaCentauriB() { return this.toPlanet(0.0306); }
     onMercury() { return this.toPlanet(0.2408467); }
     onVenus() { return this.toPlanet(0.61519726); }
     onEarth() { return this.toPlanet(1); }
