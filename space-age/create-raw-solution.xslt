@@ -17,7 +17,7 @@
  ********************************************************/
 import { SpaceAgeBase } from "./space-age-base";
 
-class SpaceAge extends SpaceAgeBase {<xsl:for-each select="/*/*">
+class SpaceAge extends SpaceAgeBase {<xsl:for-each select="/*/*"><xsl:sort select="text()" data-type="number" />
     on<xsl:value-of select="name()" />() { return this.toPlanet(<xsl:value-of select="text()" />); }</xsl:for-each>
 }
 
@@ -31,7 +31,7 @@ export { SpaceAge }
 Given an age in seconds, calculate how old someone would be on:
 
    - Earth: orbital period 365.25 Earth days, or 31557600 seconds
-<xsl:for-each select="/*/*">
+<xsl:for-each select="/*/*"><xsl:sort select="text()" data-type="number" />
    - <xsl:value-of select="name()" />: orbital period <xsl:value-of select="text()" /> Earth years.</xsl:for-each>
 
 So if you were told someone were 1,000,000,000 seconds old, you should
