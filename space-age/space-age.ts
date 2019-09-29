@@ -5,7 +5,8 @@
  *   > ssotme json-to-xml -i planet-orbits.json
  *   > ssotme xml-xslt-transform -i planet-orbits.json.xml -i create-raw-solutions.xslt
  *
- *   git@github.com:SSoTme/exercism-typescript-examples.git
+ *   More details here at this github repo.
+ *     git@github.com:SSoTme/exercism-typescript-examples.git
  ********************************************************/
 import { SpaceAgeBase } from "./space-age-base";
 
