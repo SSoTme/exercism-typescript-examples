@@ -4,10 +4,10 @@
         <FileSet>
             <FileSetFiles>
                 <FileSetFile>
-                    <RelativePath>../raw-derived.ts</RelativePath>
-                    <xsl:element name="FileContents" xml:space="preserve">import { SpaceAgeBase } from "./raw-base";
+                    <RelativePath>../space-age.ts</RelativePath>
+                    <xsl:element name="FileContents" xml:space="preserve">import { SpaceAgeBase } from "./space-age-base";
 
-class SpaceAgeDerived extends SpaceAgeBase {
+class SpaceAge extends SpaceAgeBase {
     constructor(spaceAgeInSeconds:number) {
         super(spaceAgeInSeconds)
     }
@@ -15,7 +15,7 @@ class SpaceAgeDerived extends SpaceAgeBase {
     on<xsl:value-of select="name()" />() { return this.toPlanet(<xsl:value-of select="." />); }</xsl:for-each>
 }
 
-export { SpaceAgeDerived }
+export { SpaceAge }
 </xsl:element>
                 </FileSetFile>
             </FileSetFiles>
