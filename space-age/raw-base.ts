@@ -1,6 +1,4 @@
-const planetOrbits = require('./planet-orbits.json');
-
-class SpaceAge {
+class SpaceAgeBase {
     toPlanet(earthRelativeOrbit:number) {
         return Number((this.earthYears / earthRelativeOrbit).toFixed(2));
     }
@@ -13,11 +11,7 @@ class SpaceAge {
         var self = this;
         this.seconds = spaceAgeInSeconds;
         this.earthYears = spaceAgeInSeconds / 365.25 / 24 / 60 / 60;
-        Object.keys(planetOrbits)
-              .forEach((planetName:string) => {
-                            self['on' + planetName] = () => this.toPlanet(planetOrbits[planetName]);
-                        });
     }
 }
 
-export { SpaceAge }
+export { SpaceAgeBase }
