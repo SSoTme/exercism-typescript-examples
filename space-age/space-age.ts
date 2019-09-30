@@ -19,6 +19,7 @@ class SpaceAge extends SpaceAgeBase {
     onJupiter() { return this.toPlanet(11.862615); }
     onSaturn() { return this.toPlanet(29.447498); }
     onUranus() { return this.toPlanet(84.016846); }
+    onAnotherPlanet() { return this.toPlanet(123.321); }
     onNeptune() { return this.toPlanet(164.79132); }
 }
 

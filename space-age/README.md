@@ -10,6 +10,7 @@ Given an age in seconds, calculate how old someone would be on:
    - Jupiter: orbital period 11.862615 Earth years.
    - Saturn: orbital period 29.447498 Earth years.
    - Uranus: orbital period 84.016846 Earth years.
+   - AnotherPlanet: orbital period 123.321 Earth years.
    - Neptune: orbital period 164.79132 Earth years.
 
 So if you were told someone were 1,000,000,000 seconds old, you should
